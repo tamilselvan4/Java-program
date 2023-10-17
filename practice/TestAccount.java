@@ -1,9 +1,11 @@
+package practice;
 import java.util.Scanner;
 
 public class TestAccount {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Account a = new Account();
+        
         boolean b = true;
         while(b) {
             System.out.println("1.insert\n2.deposit\n3.withdraw\n4.display\n5.exit");
