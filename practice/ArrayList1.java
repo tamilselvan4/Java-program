@@ -8,6 +8,7 @@ public class ArrayList1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> al = new ArrayList<Integer>();
+        // al.removeRange(0,1);
         System.out.println("Enter number of elements in arraylist:");
         int n = sc.nextInt();
         int num;
