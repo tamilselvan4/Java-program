@@ -20,7 +20,7 @@ public class HashSetDemo {
         //remove
         hs.remove("AA");
         System.out.println("After removing AA: " + hs);
-        hs.remove(1);
+        // hs.remove(1);
         System.out.println(hs);
     }
 }
