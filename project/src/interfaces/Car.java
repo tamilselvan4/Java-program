@@ -2,6 +2,8 @@ package interfaces;
 
 public class Car implements Engine, Brake, Media{
 
+    public int a = 10;
+
     @Override
     public void acc() {
         System.out.println("I accelarate like a normal car");
