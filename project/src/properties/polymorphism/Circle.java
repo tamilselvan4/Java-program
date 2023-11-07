@@ -5,8 +5,8 @@ public class Circle extends Shapes{
         System.out.println("circle area");
     }
 
-    @Override
-    void area1() {
-        System.out.println("I am the shape area");
-    }
+    // @Override
+    // void area1() {
+    //     System.out.println("I am the shape area");
+    // }
 }
