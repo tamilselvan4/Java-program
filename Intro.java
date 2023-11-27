@@ -1,6 +1,11 @@
 public class Intro {
     public static void main(String[] args) {
 
+        int x = 10;
+        int b = x;
+        x = 20;
+        System.out.println(b);
+
         //store 5 roll no
         int[] num = new int[5];
         System.out.println(num);
@@ -123,7 +128,6 @@ class A {
 
     @Override
     protected void finalize() throws Throwable {
-        // TODO Auto-generated method stub
         // super.finalize();
         System.out.println("object is destroyed");  
     }

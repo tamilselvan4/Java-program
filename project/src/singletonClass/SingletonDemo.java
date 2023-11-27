@@ -8,7 +8,7 @@ public class SingletonDemo {
     private static SingletonDemo instance;
 
     public static SingletonDemo getInstance() {
-        if(instance== null) {
+        if(instance == null) {
             instance = new SingletonDemo();
         }
 
